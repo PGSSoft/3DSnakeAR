@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B45ADF2C1F2085C000834898 /* Mushroom.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45ADF2B1F2085C000834898 /* Mushroom.swift */; };
+		B45ADF2D1F2085C300834898 /* Mushroom.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45ADF2B1F2085C000834898 /* Mushroom.swift */; };
+		B45ADF2F1F20871D00834898 /* mushroom.scn in Resources */ = {isa = PBXBuildFile; fileRef = B45ADF2E1F20871D00834898 /* mushroom.scn */; };
+		B45ADF301F20871D00834898 /* mushroom.scn in Resources */ = {isa = PBXBuildFile; fileRef = B45ADF2E1F20871D00834898 /* mushroom.scn */; };
+		B465F6661F1E36B700BE42DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B465F6651F1E36B700BE42DB /* AppDelegate.swift */; };
+		B465F66A1F1E36B700BE42DB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B465F6691F1E36B700BE42DB /* GameViewController.swift */; };
+		B465F66D1F1E36B700BE42DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B465F66B1F1E36B700BE42DB /* Main.storyboard */; };
+		B465F6721F1E36B700BE42DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B465F6701F1E36B700BE42DB /* LaunchScreen.storyboard */; };
+		B465F67A1F1E38FB00BE42DB /* Snake.swift in Sources */ = {isa = PBXBuildFile; fileRef = B465F6791F1E38FB00BE42DB /* Snake.swift */; };
+		B465F6821F1E49F700BE42DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B465F6811F1E49F700BE42DB /* AppDelegate.swift */; };
+		B465F6861F1E49F700BE42DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B465F6851F1E49F700BE42DB /* ViewController.swift */; };
+		B465F6891F1E49F700BE42DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B465F6871F1E49F700BE42DB /* Main.storyboard */; };
+		B465F68E1F1E49F700BE42DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B465F68C1F1E49F700BE42DB /* LaunchScreen.storyboard */; };
+		B465F6941F1E4AA100BE42DB /* arscene.scn in Resources */ = {isa = PBXBuildFile; fileRef = B465F6931F1E4AA100BE42DB /* arscene.scn */; };
+		B465F6951F1E4ADF00BE42DB /* Snake.swift in Sources */ = {isa = PBXBuildFile; fileRef = B465F6791F1E38FB00BE42DB /* Snake.swift */; };
+		B465F69A1F1F396500BE42DB /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B465F6991F1F396400BE42DB /* GameController.swift */; };
+		B465F69B1F1F396500BE42DB /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B465F6991F1F396400BE42DB /* GameController.swift */; };
+		B465F69D1F1F408F00BE42DB /* main.scn in Resources */ = {isa = PBXBuildFile; fileRef = B465F69C1F1F408F00BE42DB /* main.scn */; };
+		B47D2D791F22257100DE6D62 /* HorizontalPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47D2D781F22254100DE6D62 /* HorizontalPlane.swift */; };
+		B47D2D7A1F22257200DE6D62 /* HorizontalPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47D2D781F22254100DE6D62 /* HorizontalPlane.swift */; };
+		B4A965D31F1F84060052E53F /* mushroom-appear.scnp in Resources */ = {isa = PBXBuildFile; fileRef = B4A965D11F1F84060052E53F /* mushroom-appear.scnp */; };
+		B4A965D41F1F84060052E53F /* bokeh.png in Resources */ = {isa = PBXBuildFile; fileRef = B4A965D21F1F84060052E53F /* bokeh.png */; };
+		B4A965D91F1F8ED90052E53F /* mushroom-appear.scnp in Resources */ = {isa = PBXBuildFile; fileRef = B4A965D11F1F84060052E53F /* mushroom-appear.scnp */; };
+		B4A965DA1F1F8ED90052E53F /* bokeh.png in Resources */ = {isa = PBXBuildFile; fileRef = B4A965D21F1F84060052E53F /* bokeh.png */; };
+		B4AB8CEE1F20B2880009C9D8 /* snakeHead.scn in Resources */ = {isa = PBXBuildFile; fileRef = B4AB8CED1F20B2880009C9D8 /* snakeHead.scn */; };
+		B4AB8CEF1F20B4B60009C9D8 /* snakeHead.scn in Resources */ = {isa = PBXBuildFile; fileRef = B4AB8CED1F20B2880009C9D8 /* snakeHead.scn */; };
+		B4CE880B1F20EEDB00B0D563 /* snakeTail.scn in Resources */ = {isa = PBXBuildFile; fileRef = B4CE880A1F20EEDB00B0D563 /* snakeTail.scn */; };
+		B4CE880C1F20F2B700B0D563 /* snakeTail.scn in Resources */ = {isa = PBXBuildFile; fileRef = B4CE880A1F20EEDB00B0D563 /* snakeTail.scn */; };
+		B4CE880E1F20F72400B0D563 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4CE880D1F20F72400B0D563 /* Assets.xcassets */; };
+		B4CE880F1F20F72E00B0D563 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4CE880D1F20F72400B0D563 /* Assets.xcassets */; };
+		B4CE88171F20F86600B0D563 /* snakeBody.scn in Resources */ = {isa = PBXBuildFile; fileRef = B4CE88161F20F86600B0D563 /* snakeBody.scn */; };
+		B4CE88181F20F86600B0D563 /* snakeBody.scn in Resources */ = {isa = PBXBuildFile; fileRef = B4CE88161F20F86600B0D563 /* snakeBody.scn */; };
+		B4CE881A1F21DB2700B0D563 /* snake-body-shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = B4CE88191F21DB2700B0D563 /* snake-body-shadow.png */; };
+		B4CE881B1F21DB2700B0D563 /* snake-body-shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = B4CE88191F21DB2700B0D563 /* snake-body-shadow.png */; };
+		B4D9C18F1F21E22900B10974 /* crashed-snake.scnp in Resources */ = {isa = PBXBuildFile; fileRef = B4D9C18D1F21E22900B10974 /* crashed-snake.scnp */; };
+		B4D9C1901F21E22900B10974 /* crashed-snake.scnp in Resources */ = {isa = PBXBuildFile; fileRef = B4D9C18D1F21E22900B10974 /* crashed-snake.scnp */; };
+		B4D9C1911F21E22900B10974 /* smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D9C18E1F21E22900B10974 /* smoke.png */; };
+		B4D9C1921F21E22900B10974 /* smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D9C18E1F21E22900B10974 /* smoke.png */; };
+		B4D9C1971F21F47200B10974 /* wall-shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D9C1961F21F47200B10974 /* wall-shadow.png */; };
+		B4D9C1981F21F47200B10974 /* wall-shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D9C1961F21F47200B10974 /* wall-shadow.png */; };
+		B4D9C19A1F22114D00B10974 /* worldScene.scn in Resources */ = {isa = PBXBuildFile; fileRef = B4D9C1991F22114D00B10974 /* worldScene.scn */; };
+		B4D9C19B1F22114D00B10974 /* worldScene.scn in Resources */ = {isa = PBXBuildFile; fileRef = B4D9C1991F22114D00B10974 /* worldScene.scn */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B45ADF2B1F2085C000834898 /* Mushroom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mushroom.swift; sourceTree = "<group>"; };
+		B45ADF2E1F20871D00834898 /* mushroom.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = mushroom.scn; sourceTree = "<group>"; };
+		B465F6621F1E36B700BE42DB /* 3DSnake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3DSnake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B465F6651F1E36B700BE42DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B465F6691F1E36B700BE42DB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		B465F66C1F1E36B700BE42DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B465F6711F1E36B700BE42DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B465F6731F1E36B700BE42DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B465F6791F1E38FB00BE42DB /* Snake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snake.swift; sourceTree = "<group>"; };
+		B465F67F1F1E49F700BE42DB /* 3DSnakeAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3DSnakeAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B465F6811F1E49F700BE42DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B465F6851F1E49F700BE42DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B465F6881F1E49F700BE42DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B465F68D1F1E49F700BE42DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B465F68F1F1E49F700BE42DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B465F6931F1E4AA100BE42DB /* arscene.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = arscene.scn; sourceTree = "<group>"; };
+		B465F6991F1F396400BE42DB /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		B465F69C1F1F408F00BE42DB /* main.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = main.scn; sourceTree = "<group>"; };
+		B47D2D781F22254100DE6D62 /* HorizontalPlane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalPlane.swift; sourceTree = "<group>"; };
+		B4A965D11F1F84060052E53F /* mushroom-appear.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = "mushroom-appear.scnp"; sourceTree = "<group>"; };
+		B4A965D21F1F84060052E53F /* bokeh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bokeh.png; sourceTree = "<group>"; };
+		B4AB8CED1F20B2880009C9D8 /* snakeHead.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = snakeHead.scn; sourceTree = "<group>"; };
+		B4CE880A1F20EEDB00B0D563 /* snakeTail.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = snakeTail.scn; sourceTree = "<group>"; };
+		B4CE880D1F20F72400B0D563 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4CE88161F20F86600B0D563 /* snakeBody.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = snakeBody.scn; sourceTree = "<group>"; };
+		B4CE88191F21DB2700B0D563 /* snake-body-shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "snake-body-shadow.png"; sourceTree = "<group>"; };
+		B4D9C18D1F21E22900B10974 /* crashed-snake.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = "crashed-snake.scnp"; sourceTree = "<group>"; };
+		B4D9C18E1F21E22900B10974 /* smoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smoke.png; sourceTree = "<group>"; };
+		B4D9C1961F21F47200B10974 /* wall-shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wall-shadow.png"; sourceTree = "<group>"; };
+		B4D9C1991F22114D00B10974 /* worldScene.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = worldScene.scn; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B465F65F1F1E36B700BE42DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B465F67C1F1E49F700BE42DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B465F6591F1E36B700BE42DB = {
+			isa = PBXGroup;
+			children = (
+				B465F6641F1E36B700BE42DB /* 3DSnake */,
+				B465F6801F1E49F700BE42DB /* 3DSnakeAR */,
+				B465F6631F1E36B700BE42DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B465F6631F1E36B700BE42DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B465F6621F1E36B700BE42DB /* 3DSnake.app */,
+				B465F67F1F1E49F700BE42DB /* 3DSnakeAR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B465F6641F1E36B700BE42DB /* 3DSnake */ = {
+			isa = PBXGroup;
+			children = (
+				B465F6651F1E36B700BE42DB /* AppDelegate.swift */,
+				B47D2D7B1F22268700DE6D62 /* common classes */,
+				B48119B21F20E6BA008DBDF7 /* common scenkit assets */,
+				B465F6691F1E36B700BE42DB /* GameViewController.swift */,
+				B465F6731F1E36B700BE42DB /* Info.plist */,
+				B465F6701F1E36B700BE42DB /* LaunchScreen.storyboard */,
+				B465F69C1F1F408F00BE42DB /* main.scn */,
+				B465F66B1F1E36B700BE42DB /* Main.storyboard */,
+			);
+			path = 3DSnake;
+			sourceTree = "<group>";
+		};
+		B465F6801F1E49F700BE42DB /* 3DSnakeAR */ = {
+			isa = PBXGroup;
+			children = (
+				B465F6811F1E49F700BE42DB /* AppDelegate.swift */,
+				B465F6931F1E4AA100BE42DB /* arscene.scn */,
+				B47D2D781F22254100DE6D62 /* HorizontalPlane.swift */,
+				B465F68F1F1E49F700BE42DB /* Info.plist */,
+				B465F68C1F1E49F700BE42DB /* LaunchScreen.storyboard */,
+				B465F6871F1E49F700BE42DB /* Main.storyboard */,
+				B465F6851F1E49F700BE42DB /* ViewController.swift */,
+			);
+			path = 3DSnakeAR;
+			sourceTree = "<group>";
+		};
+		B47D2D7B1F22268700DE6D62 /* common classes */ = {
+			isa = PBXGroup;
+			children = (
+				B465F6991F1F396400BE42DB /* GameController.swift */,
+				B45ADF2B1F2085C000834898 /* Mushroom.swift */,
+				B465F6791F1E38FB00BE42DB /* Snake.swift */,
+			);
+			path = "common classes";
+			sourceTree = "<group>";
+		};
+		B48119B21F20E6BA008DBDF7 /* common scenkit assets */ = {
+			isa = PBXGroup;
+			children = (
+				B4CE880D1F20F72400B0D563 /* Assets.xcassets */,
+				B4A965D21F1F84060052E53F /* bokeh.png */,
+				B4D9C18D1F21E22900B10974 /* crashed-snake.scnp */,
+				B4A965D11F1F84060052E53F /* mushroom-appear.scnp */,
+				B45ADF2E1F20871D00834898 /* mushroom.scn */,
+				B4D9C18E1F21E22900B10974 /* smoke.png */,
+				B4CE88191F21DB2700B0D563 /* snake-body-shadow.png */,
+				B4CE88161F20F86600B0D563 /* snakeBody.scn */,
+				B4AB8CED1F20B2880009C9D8 /* snakeHead.scn */,
+				B4CE880A1F20EEDB00B0D563 /* snakeTail.scn */,
+				B4D9C1961F21F47200B10974 /* wall-shadow.png */,
+				B4D9C1991F22114D00B10974 /* worldScene.scn */,
+			);
+			path = "common scenkit assets";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B465F6611F1E36B700BE42DB /* 3DSnake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B465F6761F1E36B700BE42DB /* Build configuration list for PBXNativeTarget "3DSnake" */;
+			buildPhases = (
+				B465F65E1F1E36B700BE42DB /* Sources */,
+				B465F65F1F1E36B700BE42DB /* Frameworks */,
+				B465F6601F1E36B700BE42DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 3DSnake;
+			productName = 3DSnake;
+			productReference = B465F6621F1E36B700BE42DB /* 3DSnake.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B465F67E1F1E49F700BE42DB /* 3DSnakeAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B465F6901F1E49F700BE42DB /* Build configuration list for PBXNativeTarget "3DSnakeAR" */;
+			buildPhases = (
+				B465F67B1F1E49F700BE42DB /* Sources */,
+				B465F67C1F1E49F700BE42DB /* Frameworks */,
+				B465F67D1F1E49F700BE42DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 3DSnakeAR;
+			productName = 3DSnakeAR;
+			productReference = B465F67F1F1E49F700BE42DB /* 3DSnakeAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B465F65A1F1E36B700BE42DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "PGS Software";
+				TargetAttributes = {
+					B465F6611F1E36B700BE42DB = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					B465F67E1F1E49F700BE42DB = {
+						CreatedOnToolsVersion = 9.0;
+					};
+				};
+			};
+			buildConfigurationList = B465F65D1F1E36B700BE42DB /* Build configuration list for PBXProject "3DSnake" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B465F6591F1E36B700BE42DB;
+			productRefGroup = B465F6631F1E36B700BE42DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B465F6611F1E36B700BE42DB /* 3DSnake */,
+				B465F67E1F1E49F700BE42DB /* 3DSnakeAR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B465F6601F1E36B700BE42DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4D9C1971F21F47200B10974 /* wall-shadow.png in Resources */,
+				B45ADF2F1F20871D00834898 /* mushroom.scn in Resources */,
+				B465F69D1F1F408F00BE42DB /* main.scn in Resources */,
+				B4CE880B1F20EEDB00B0D563 /* snakeTail.scn in Resources */,
+				B4A965D31F1F84060052E53F /* mushroom-appear.scnp in Resources */,
+				B4CE881A1F21DB2700B0D563 /* snake-body-shadow.png in Resources */,
+				B4D9C19A1F22114D00B10974 /* worldScene.scn in Resources */,
+				B4CE880E1F20F72400B0D563 /* Assets.xcassets in Resources */,
+				B4D9C18F1F21E22900B10974 /* crashed-snake.scnp in Resources */,
+				B465F6721F1E36B700BE42DB /* LaunchScreen.storyboard in Resources */,
+				B4D9C1911F21E22900B10974 /* smoke.png in Resources */,
+				B4A965D41F1F84060052E53F /* bokeh.png in Resources */,
+				B4AB8CEE1F20B2880009C9D8 /* snakeHead.scn in Resources */,
+				B465F66D1F1E36B700BE42DB /* Main.storyboard in Resources */,
+				B4CE88171F20F86600B0D563 /* snakeBody.scn in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B465F67D1F1E49F700BE42DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4D9C1981F21F47200B10974 /* wall-shadow.png in Resources */,
+				B465F68E1F1E49F700BE42DB /* LaunchScreen.storyboard in Resources */,
+				B45ADF301F20871D00834898 /* mushroom.scn in Resources */,
+				B4CE880C1F20F2B700B0D563 /* snakeTail.scn in Resources */,
+				B4CE881B1F21DB2700B0D563 /* snake-body-shadow.png in Resources */,
+				B4D9C19B1F22114D00B10974 /* worldScene.scn in Resources */,
+				B4CE880F1F20F72E00B0D563 /* Assets.xcassets in Resources */,
+				B4D9C1901F21E22900B10974 /* crashed-snake.scnp in Resources */,
+				B4AB8CEF1F20B4B60009C9D8 /* snakeHead.scn in Resources */,
+				B465F6941F1E4AA100BE42DB /* arscene.scn in Resources */,
+				B4D9C1921F21E22900B10974 /* smoke.png in Resources */,
+				B4A965D91F1F8ED90052E53F /* mushroom-appear.scnp in Resources */,
+				B4A965DA1F1F8ED90052E53F /* bokeh.png in Resources */,
+				B465F6891F1E49F700BE42DB /* Main.storyboard in Resources */,
+				B4CE88181F20F86600B0D563 /* snakeBody.scn in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B465F65E1F1E36B700BE42DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B47D2D791F22257100DE6D62 /* HorizontalPlane.swift in Sources */,
+				B465F66A1F1E36B700BE42DB /* GameViewController.swift in Sources */,
+				B465F69A1F1F396500BE42DB /* GameController.swift in Sources */,
+				B465F6661F1E36B700BE42DB /* AppDelegate.swift in Sources */,
+				B45ADF2C1F2085C000834898 /* Mushroom.swift in Sources */,
+				B465F67A1F1E38FB00BE42DB /* Snake.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B465F67B1F1E49F700BE42DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B47D2D7A1F22257200DE6D62 /* HorizontalPlane.swift in Sources */,
+				B465F6861F1E49F700BE42DB /* ViewController.swift in Sources */,
+				B465F69B1F1F396500BE42DB /* GameController.swift in Sources */,
+				B465F6821F1E49F700BE42DB /* AppDelegate.swift in Sources */,
+				B465F6951F1E4ADF00BE42DB /* Snake.swift in Sources */,
+				B45ADF2D1F2085C300834898 /* Mushroom.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B465F66B1F1E36B700BE42DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B465F66C1F1E36B700BE42DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B465F6701F1E36B700BE42DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B465F6711F1E36B700BE42DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B465F6871F1E49F700BE42DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B465F6881F1E49F700BE42DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B465F68C1F1E49F700BE42DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B465F68D1F1E49F700BE42DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B465F6741F1E36B700BE42DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B465F6751F1E36B700BE42DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B465F6771F1E36B700BE42DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 36CHZQXF4C;
+				INFOPLIST_FILE = 3DSnake/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pgs-soft.-DSnake";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B465F6781F1E36B700BE42DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 36CHZQXF4C;
+				INFOPLIST_FILE = 3DSnake/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pgs-soft.-DSnake";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B465F6911F1E49F700BE42DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconAR;
+				DEVELOPMENT_TEAM = 36CHZQXF4C;
+				INFOPLIST_FILE = 3DSnakeAR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pgs-soft.-DSnakeAR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B465F6921F1E49F700BE42DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconAR;
+				DEVELOPMENT_TEAM = 36CHZQXF4C;
+				INFOPLIST_FILE = 3DSnakeAR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pgs-soft.-DSnakeAR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B465F65D1F1E36B700BE42DB /* Build configuration list for PBXProject "3DSnake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B465F6741F1E36B700BE42DB /* Debug */,
+				B465F6751F1E36B700BE42DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B465F6761F1E36B700BE42DB /* Build configuration list for PBXNativeTarget "3DSnake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B465F6771F1E36B700BE42DB /* Debug */,
+				B465F6781F1E36B700BE42DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B465F6901F1E49F700BE42DB /* Build configuration list for PBXNativeTarget "3DSnakeAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B465F6911F1E49F700BE42DB /* Debug */,
+				B465F6921F1E49F700BE42DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B465F65A1F1E36B700BE42DB /* Project object */;
+}

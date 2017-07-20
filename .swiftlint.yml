@@ -1,0 +1,27 @@
+disabled_rules: # rule identifiers to exclude from running
+  - line_length
+  - function_body_length
+  - todo
+  - trailing_whitespace
+# Test force unwrapping ocasionally
+# opt_in_rules:
+#  - force_unwrapping
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - Carthage
+  - Pods
+type_name:
+  excluded:
+    - OK
+variable_name:
+  max_length:
+    warning: 80
+    error: 100
+  excluded: # excluded via string array
+    - id
+    - URL
+type_body_length:
+  warning: 300
+  error: 500
+file_length:
+  warning: 600
+  error: 1000
