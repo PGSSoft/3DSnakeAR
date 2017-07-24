@@ -6,9 +6,9 @@ Well known game Snake in Augmented Reality. Written in Swift using ARKit.
 App demonstrates ARKit and plane detection. Content is generated with SceneKit.
 
 ### Screenshots
-![image1](image1.png)
-![image2](image2.png)
-![image3](image3.png)
+![image1](image1.PNG)
+![image2](image2.PNG)
+![image3](image3.PNG)
 
 [![Swift 3.0](https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat)](https://swift.org/)
  
