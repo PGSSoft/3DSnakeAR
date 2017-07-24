@@ -1,4 +1,4 @@
-![pgssoft-logo.png](Assets/pgssoft-logo.png)
+![pgssoft-logo.png](pgssoft-logo.png)
 
 # 3DSnakeAR
 
@@ -11,7 +11,7 @@ App demonstrates ARKit and plane detection. Content is generated with SceneKit.
 ![image3](image3.PNG)
 
 [![Swift 3.0](https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat)](https://swift.org/)
- 
+
 ## Installation
 
 Just open in Xcode beta 3 or newer.
