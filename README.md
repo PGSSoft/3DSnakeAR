@@ -2,6 +2,8 @@
 
 # 3DSnakeAR
 
+[![Swift 3.0](https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat)](https://swift.org/)
+
 Well known game Snake in Augmented Reality. Written in Swift using ARKit.
 App demonstrates ARKit and plane detection. Content is generated with SceneKit.
 
@@ -9,8 +11,6 @@ App demonstrates ARKit and plane detection. Content is generated with SceneKit.
 ![image1](image1.PNG)
 ![image2](image2.PNG)
 ![image3](image3.PNG)
-
-[![Swift 3.0](https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat)](https://swift.org/)
 
 ## Installation
 
