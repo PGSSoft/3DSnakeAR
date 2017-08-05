@@ -36,6 +36,6 @@ final class Mushroom: SCNNode {
             self.removeAllParticleSystems()
         }
         let sequence = SCNAction.sequence([scaleAction, removeParticle])
-        runAction(sequence)
+        runAction(sequence!)
     }
 }
