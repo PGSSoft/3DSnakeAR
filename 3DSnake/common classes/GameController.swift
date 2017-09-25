@@ -56,7 +56,7 @@ final class GameController {
         timer?.invalidate()
         timer = Timer.scheduledTimer(timeInterval: 0.5, target: self, selector: #selector(updateSnake), userInfo: nil, repeats: true)
         let rotateAction = SCNAction.rotate(by: CGFloat.pi * 2, around: SCNVector3(0, 1, 0), duration: 10.0)
-        pointsNode?.runAction(SCNAction.repeatForever(rotateAction)!)
+        pointsNode?.runAction(SCNAction.repeatForever(rotateAction))
     }
 
     // MARK: - Actions

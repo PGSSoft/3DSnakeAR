@@ -98,7 +98,7 @@ final class ViewController: UIViewController, ARSCNViewDelegate {
         super.viewWillAppear(animated)
 
         // Create a session configuration
-        let configuration = ARWorldTrackingSessionConfiguration()
+        let configuration = ARWorldTrackingConfiguration()
         configuration.planeDetection = .horizontal
         // Run the view's session
         sceneView.session.run(configuration)

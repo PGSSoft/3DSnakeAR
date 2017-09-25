@@ -17,11 +17,11 @@ App demonstrates ARKit and plane detection. Content is generated with SceneKit.
 
 ## Installation
 
-Just open in Xcode 9 beta 3 or newer.
+Just open in Xcode 9 and run on device.
 
 ## Requirements
 
-* Xcode 9 Beta 3 or newer
+* Xcode 9
 * iOS 11.0
 
 ## Usage
